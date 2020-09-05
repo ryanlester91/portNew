@@ -16,7 +16,7 @@
             <h1 class="display-4">Ryan Lester</h1>
             <h4 class="subheading mb-2">
             Front-End Developer </h4>
-            <br> <button type="button">Portfolio</button>
+            <br> <button type="button" onclick="myFunction()">Portfolio</button>
             <br>
             <div class="social-links">
                 <a href="https://github.com/ryanlester91"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
@@ -24,9 +24,76 @@
                 </div>
         </div>
         <div class="side-bar">
+            <p id="message"></p>
             
         </div>
     </div>
+
+    <!--My Projects-->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title">My Projects</h2>
+
+        <div class="portfolio">
+            <!--Portfolio Item 1-->
+            <div class="portfolio-item">
+                <img src="ghost-flex.jpg" alt="#" class="portfolio-img">
+                <div class="badge">
+                    <a id="deployed-badge" href="https://ryanlester91.github.io/BasicRPG">Deployed</div>
+                    <a id="repo-badge" href="https://www.github.com/ryanlester91/BasicRPG">Repo</div>
+                    </div>
+            </div>
+            <!--Portfolio Item 2-->
+            <div class="portfolio-item">
+                <img src="pirate thumbnail.png" alt="" class="portfolio-img">
+                <div class="badge">
+                <a id="deployed-badge">Deployed</div>
+                <a id="repo-badge">Repo</div>
+                </div>
+            </div>
+            <!--Portfolio Item 3-->
+            <div class="portfolio-item">
+                <img src="psychic-pokemon-eye.png" alt="" class="portfolio-img">
+                <div id="deployed-badge" class="badge">Deployed</div>
+                <div id="repo-badge" class="badge">Repo</div>
+            </div>
+            <!--Portfolio Item 4-->
+            <div class="portfolio-item">
+                <img src="psychic-pokemon-eye.png" alt="" class="portfolio-img">
+                <a id="deployed-badge" class="badge" href="https://ryanlester91.github.io/Psychic-Game">Deployed</a>
+                <a id="repo-badge" class="badge" href="https://www.github.com/ryanlester91/Psychic-Game">Repo</div>
+            </div>
+            <!--Portfolio Item 5-->
+            <div class="portfolio-item">
+                <img src="zorak-laughing.jpg" alt="" class="portfolio-img">
+                <div id="deployed-badge" class="badge">Deployed</div>
+                <div id="repo-badge" class="badge">Repo</div>
+            </div>
+            <!--Portfolio Item 6-->
+            <div class="portfolio-item">
+                <img src="tenchi_tenchi-masaki.jpg" alt="" class="portfolio-img">
+                <div id="deployed-badge" class="badge">Deployed</div>
+                <div id="repo-badge" class="badge">Repo</div>
+            </div>
+                
+        </div>
+
+
+
+
+
+
+
+    </section>
 </body>
-<script></script>
+<script>
+    function myFunction() {
+        document.getElementById("message").innerHTML = "Hello World";
+    }
+
+    
+    
+    
+
+    
+</script>
 </html>
