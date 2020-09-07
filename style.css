@@ -5,6 +5,10 @@
     color:  #fbfcfd;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -47,8 +51,8 @@ button {
     cursor: pointer;
 }
 
-#my-projects{
-    background-color: navy;;
+.my-projects{
+    background-color:#5f9ea0;
 }
 
 .portfolio {
@@ -72,6 +76,10 @@ button {
 .portfolio-img:hover{
     transform: scale(1.2);
     opacity: .5;
+}
+
+#what-i-do { 
+    color: black;
 }
 
 
