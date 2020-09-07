@@ -78,8 +78,19 @@ button {
     opacity: .5;
 }
 
+nav { display: none;}
+
+.hamburger {
+    background: var(--clr-dark);
+    width: 2em;
+    height:3px;
+    border-radius: 1em;
+    display: block;
+    position: relative;
+}
+
 #what-i-do { 
-    color: black;
+    background-color: rosybrown;
 }
 
 
