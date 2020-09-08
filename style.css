@@ -52,7 +52,8 @@ button {
 }
 
 .my-projects{
-    background-color:#5f9ea0;
+    background-image: url("2chesspieces.png");
+    background-size: cover;
 }
 
 .portfolio {
