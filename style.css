@@ -91,7 +91,35 @@ nav { display: none;}
 }
 
 #what-i-do { 
-    background-color: rosybrown;
+    background-image: url("2chesspieces.png");
+    background-size: cover;
+    background-color: var(--clr-dark);
+    background-blend-mode: multiply;
+    color: lightgreen;
+}
+
+.section-title-services {
+    color: lightgreen;
+    position: relative;
+}
+
+.services {
+    color: lightgreen;
+}
+
+
+
+@media (min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .service + .service {
+        margin-left: 2em;
+
+    }
 }
 
 
