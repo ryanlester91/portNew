@@ -91,7 +91,7 @@ nav { display: none;}
 }
 
 #what-i-do { 
-    background-image: url("2chesspieces.png");
+    background-image: url("hal-chess2001.jpg");
     background-size: cover;
     background-color: var(--clr-dark);
     background-blend-mode: multiply;
@@ -101,6 +101,7 @@ nav { display: none;}
 .section-title-services {
     color: lightgreen;
     position: relative;
+    font-size: 48px;
 }
 
 .services {
