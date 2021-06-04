@@ -91,7 +91,7 @@ nav { display: none;}
 }
 
 #what-i-do { 
-    background-image: url("hal-chess2001.jpg");
+    background-image: url("2chesspieces.png");
     background-size: cover;
     background-color: var(--clr-dark);
     background-blend-mode: multiply;
