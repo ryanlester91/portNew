@@ -54,6 +54,7 @@ button {
 .my-projects{
     background-image: url("2chesspieces.png");
     background-size: cover;
+    padding: 25px;
 }
 
 .portfolio {
@@ -82,6 +83,7 @@ button {
 nav { display: none;}
 
 .hamburger {
+    color: #5d0014;
     background: var(--clr-dark);
     width: 2em;
     height:3px;
@@ -96,6 +98,8 @@ nav { display: none;}
     background-color: var(--clr-dark);
     background-blend-mode: multiply;
     color: lightgreen;
+    text-align: center;
+    padding: 25px;
 }
 
 .section-title-services {
@@ -104,8 +108,9 @@ nav { display: none;}
     font-size: 48px;
 }
 
-.services {
-    color: lightgreen;
+.service {
+    padding: 20px;
+    margin-top: 15px;
 }
 
 .service-list {
@@ -117,6 +122,13 @@ nav { display: none;}
     padding: 15px;
 }
 
+.section__title, #gallery-instruction {
+    text-align: center;
+}
+
+.section__title {
+    padding: 10px;
+}
 
 
 @media (min-width: 800px) {
