@@ -108,6 +108,15 @@ nav { display: none;}
     color: lightgreen;
 }
 
+.service-list {
+    z-index: 1;
+    background: radial-gradient(#e66465, #9198e5);;
+    color: oldlace;
+    border-left: 10px solid navy;
+    border-bottom: 10px solid navy;
+    padding: 15px;
+}
+
 
 
 @media (min-width: 800px) {
