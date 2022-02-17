@@ -46,6 +46,7 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+    letter-spacing: 0.25em;
     position: relative;
 }
 
