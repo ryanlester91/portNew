@@ -9,6 +9,24 @@ html {
     scroll-behavior: smooth;
 }
 
+#burger-flag {
+    height: 80px;
+    width: 120px;
+}
+
+header {
+    background-color:#5d0014;
+    font-family: "Roboto Slab";
+    height: 85px;
+}
+
+.logo {
+    float: left;
+}
+
+
+
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -19,7 +37,7 @@ html {
     overflow: hidden;
 }
 
-button {
+/*button {
     color: #fbfcfd;
     padding: 10px 25px;
     background: transparent;
@@ -27,7 +45,7 @@ button {
     border-radius: 20px;
     outline: none;
     cursor: pointer;
-}
+}*/
 
 #front-info{
     color: #fbfcfd;
@@ -80,9 +98,9 @@ button {
     opacity: .5;
 }
 
-nav { display: none;}
+/*nav { display: none;}*/
 
-.hamburger {
+/*.hamburger {
     color: #5d0014;
     background: var(--clr-dark);
     width: 2em;
@@ -90,7 +108,7 @@ nav { display: none;}
     border-radius: 1em;
     display: block;
     position: relative;
-}
+}*/
 
 #what-i-do { 
     background-image: url("2chesspieces.png");
@@ -100,6 +118,10 @@ nav { display: none;}
     color: lightgreen;
     text-align: center;
     padding: 25px;
+}
+
+#service-expl {
+    color: yellow;
 }
 
 .section-title-services {

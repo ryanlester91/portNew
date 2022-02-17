@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
@@ -14,15 +15,19 @@
 <body>
 
     <header>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
         <nav class="nav">
-            <ul class="nav-list">
-                
-            </ul>
-        </nav>
+            <div class="container">
+                <div class="logo">
+                    <img id="burger-flag" src="burger_flag.png" alt="burger_flag">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#" alt="Home">Home</a></li>
+                    <li><a href="#" alt="Portfolio">Portfolio</a></li>
+                    <li><a href="#" alt="Contact">Contact</a></li>
+                </ul>
+            </div>    
 
+        </nav>
     </header>
     <section class="index-page">
     <div class="hero">
@@ -104,7 +109,7 @@
             </div>
 
             <div class="service">
-                <h3>Design and Develop</h3>
+                <h3 id="service-expl">Design and Develop</h3>
                 <p class="service-list">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nisl justo, lobortis eu nisi sit amet, elementum varius dui. Donec efficitur interdum </p>
                    
             </div>
