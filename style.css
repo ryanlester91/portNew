@@ -50,9 +50,15 @@ nav li {
     position: relative;
 }
 
+
+
 nav a {
     color: #fbfcfd;
     font-family: "Roboto Slab";
+}
+
+nav a:hover{
+    color: #ccc;
 }
 
 
